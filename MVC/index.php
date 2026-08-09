@@ -27,17 +27,17 @@ switch($action){
          */
 
         
-        require './repositories/mysql/Database.php';
+        //require './repositories/mysql/Database.php';
         //include
 
 
         //Aca creo la base de datos para poner obtener el objeto inicial
-        $database = new Database(); 
+        //$database = new Database(); 
 
         //Crear la conexion con esa conexion ya puedo trabajar
-        $db = $database->getConnection();
+        //$db = $database->getConnection();
 
-        print_r($db);
+        //print_r($db);
 ?>
 
 

@@ -3,9 +3,9 @@
 class Database{
     private $host = "127.0.0.1";
     private $port = "3306";
-    private $db_name = "tiendita";
+    private $db_name = "tiendasv";
     private $username = "root";
-    private $password = "";
+    private $password = "admin";
     private PDO | null $connect;
 
     function getConnection(){
